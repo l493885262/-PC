@@ -533,6 +533,7 @@ div.zoomMask{position:absolute;width: 100%; height: 100%; background:url("images
 .addressList-tit h3 span{padding-left: 56px; font-size: 14px;color: #3a3939; font-weight: normal;}
 .addressList-tit h3 span i{padding: 0 5px; color: #f10180;}
 .addressList-list{ padding: 24px 0 24px 28px;}
+.addressList-list ul{ width: 1000px;}
 .addressList-list li{position: relative; float: left; margin-right: 26px; padding: 0px 10px; width: 280px; height: 188px; border:1px solid #f4f4f4; color: #000; line-height: 24px; overflow: hidden;}
 .addressList-list li .addr-name{ height: 26px; padding: 20px 0 10px; font-size: 16px; border-bottom: 1px dashed #f4f4f4;}
 .addressList-list li .addr-dz{padding-top: 10px; margin-right: 10px; height: 70px; font-size: 14px; border-bottom: 1px dashed #f4f4f4; overflow: hidden;}
@@ -591,6 +592,30 @@ div.zoomMask{position:absolute;width: 100%; height: 100%; background:url("images
 .order-track dl dd{float: left; line-height: 24px;}
 .order-track dl dd.ord-dd{margin-left: 106px; margin-right: 20px; width: 460px;}
 .order-track dl dd.ord-dd2{ width: 70px; text-align: center;}
+/**提交订单**/
+.buy{margin-left: 200px; width: 1000px;}
+.buy .buy-name{ margin-top: 25px; width: 890px; height: 38px; line-height: 38px; background: #dff1f8; border:1px solid #b4e1f3;}
+.buy .buy-name h2{ float: left;margin-top: 10px; padding: 0 15px 0 6px; height: 18px; line-height: 18px; font-size: 16px; color: #454646; border-right: 1px solid #bfbfbf;}
+.buy-i{float: left; margin-top: 9px; margin-left: 40px; display: inline-block; vertical-align: middle; width: 20px; height: 20px; background: url(../images/icon2.png) no-repeat left -108px;}
+.buy-t{ float: left; margin-top: 9px; margin-left: 15px; height: 20px; line-height: 20px; color: #2d2e2e; vertical-align: middle;}
+.buy-t span{padding: 0 5px; color: #f43499;}
+.buy-tit{margin-top: 45px; line-height: 33px; background:#f0efef;}
+.buy-tit h3{ float: left; margin-left: 20px; padding: 0 5px; border-bottom: 2px solid #e82d8e; height: 33px; font-size: 16px; color: #2d2e2e; font-weight: normal; }
+.buy-tit a{float: right;margin-right: 70px; color: #359cdf;}
+.buy-tit a:hover{ color: #e73959;}
+.buy-address{ padding-left: 21px;}
+.buy-tab th{ height: 50px; font-size: 16px; color: #2d2e2e;}
+.buy-tab td{ height: 120px; padding: 15px 0;}
+.buy-tab .buy-img{ margin-right: 40px; width: 110px;}
+.buy-tab .buy-img img{width: 110px; height: 120px;}
+.buy-tab .buy-p{ width: 250px; font-size: 14px; color: #0f0f0f;}
+.buy-tab .buy-price,.buy-num,.buy-total{ width: 180px; text-align: center; font-size: 18px; color: #e82d8e;}
+.buy-tab .buy-num{margin: 0 30px;}
+.buy-sub{margin:40px 54px 0 20px; padding-top: 20px; border-top: 1px solid #c9c9c9; text-align: right;}
+.buy-sub .buy-sub-p{line-height: 26px; color: #5c5c5c;}
+.buy-sub .buy-sub-p span{padding: 0 5px; color: #e82d8e;}
+.buy-sub .buy-sub-p b{margin-left: 20px; margin-right: -5px; font-size: 18px;}
+.buy-sub .buy-sub-a a{margin-top: 20px; display: inline-block; width: 176px; height: 43px; text-align: center; line-height: 43px; background:url(../images/btn3.png) no-repeat; font-size: 16px; color: #fff;}
 /**留言**/
 .leaving{ width: 750px; margin: 70px auto 0;}
 .leaving dl{ margin-top: 20px;}
